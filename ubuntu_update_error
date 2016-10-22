@@ -1,4 +1,6 @@
 
+Ubuntu使用aptitude update 或 upgrade更新错误的解决方法：就是删除相应的文件夹
+
 E: Unable to parse package file /var/lib/apt/lists/security.ubuntu
 
 rm /var/lib/apt/lists/* -vf
