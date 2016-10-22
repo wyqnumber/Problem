@@ -1,0 +1,4 @@
+
+E: Unable to parse package file /var/lib/apt/lists/security.ubuntu
+
+rm /var/lib/apt/lists/* -vf
