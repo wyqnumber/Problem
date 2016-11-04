@@ -1,0 +1,32 @@
+
+Linux下fcitx安装谷歌搜狗输入法
+http://yanue.net/post-110.html
+
+卸载Ubuntu默认的ibus输入法：
+
+    sudo apt-get remove ibus
+
+然后添加Fcitx 源：
+
+    sudo add-apt-repository ppa:fcitx-team/nightly
+    sudo apt-get update
+
+然后 安装fcitx，搜狗输入法，Google输入法，以及设置fcitx为默认:
+
+    sudo apt-get install fcitx fcitx-config-gtk fcitx-googlepinyin fcitx-sogoupinyin
+
+这里可以安装很多输入法，根据你自己的需要：fcitx-sunpinyin fcitx-module-cloudpinyin默认没有安装im-switch 自己安装一个
+
+    sudo apt-get install im-switch
+    im-switch -s fcitx -z default
+    sudo apt-get install fcitx-config-gtk
+
+完成之后注销或重起即可！
+
+附带几个fcitx输入法的热键：
+
+隐藏显示浮条=CTRL + ALT + H
+
+打开/关闭输入法=CTRL_SPACE
+# 中英文快速切换键 可以设置为L_CTRL R_CTRL L_SHIFT R_SHIFT L_SUPER R_SUPER
+中英文快速切换键=L_CTRL
