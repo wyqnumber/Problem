@@ -1,0 +1,8 @@
+产生的问题：Ubuntu在一个界面中开启firefox浏览器，无法通过界面关闭
+
+解决的方法：
+查询进程号： pgrep firefox
+
+kill 4313 也可以用killall
+
+kill -9 pid 比较暴力
