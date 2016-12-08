@@ -1,0 +1,11 @@
+此博客为正解  http://blog.csdn.net/lanchunhui/article/details/49717535
+
+windows下cv2包在python中的安装方法是：
+先安装opencv软件,将其中的cv2.pyd文件拷贝到..\Python\Lib\site-packages中即可。
+
+Ubuntu下cv2包在python中的安装方法是：
+从opencv开始安装可谓是真坑。
+
+anaconda python开发套件的直接安装简单方便无敌： conda install --channel https://conda.anaconda.org/menpo opencv3
+
+
