@@ -1,0 +1,14 @@
+
+
+F11 进入U盘或光盘启动 安装即可。 DELETE键进入BIOS。
+
+刚开始按照以前的按照步骤，只分区/，home，swap即可。
+
+出现了问题：The partition table format in use on your disks normally requires ... "Reserved BIOS boot area" ...  correct this error boot loader
+分区的时候多分一个Reserved BIOS boot area即可。
+
+最大的问题是：一直找不到引导
+即 windows 未能启动。 1. 2. 3. 文件\NST\nst_linux.mbr 状态：0xc000007b 信息：无法加载应用程序或操作系统
+
+试过关闭bios ->Security选项 -> Secure Boot -> Secure Boot 【Disable】，但昂达上没有，擦。
+http://blog.csdn.net/bychen623/article/details/53543465
