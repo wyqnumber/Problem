@@ -1,0 +1,8 @@
+
+修改LinuxMint18安装软件源
+http://www.linuxdiyf.com/linux/27343.html
+在联网状态下，点击Menu->Software Manager->Edit->Software Sources
+
+
+大而全的更新命令：
+sudo aptitude update && sudo aptitude install build-essential
